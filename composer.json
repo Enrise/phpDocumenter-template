@@ -1,0 +1,11 @@
+{
+    "name": "phpdocumentor/template-enrise-api",
+    "type": "phpdocumentor-template",
+    "description": "Enrise API Documentation template",
+    "keywords": ["documentation", "template", "phpdoc", "enrise", "api"],
+    "homepage": "http://www.enrise.com",
+    "require": {
+        "ext-xsl": "*",
+        "phpdocumentor/unified-asset-installer": "1.*"
+    }
+}

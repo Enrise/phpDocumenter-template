@@ -1,0 +1,39 @@
+@import url('abstract.css');
+
+h1 {
+    font-size: 3em;
+}
+
+h3 {
+    margin: 0 0 0.3em 0.2em;
+}
+
+#sidebar {
+    width: 400px;
+}
+
+.filetree li {
+    margin: 0.2em 0;
+}
+
+div.sidebar-section ul span {
+    background: none no-repeat scroll left top transparent;
+    padding-left: 0px;
+}
+
+a.api-url {
+    text-decoration: none;
+}
+a.api-url:hover {
+    text-decoration: underline;
+}
+
+.api-url {
+    color: #FFA600;
+}
+
+.api-method {
+    margin-right: 6px;
+    font-weight: bold;
+    color: #333;
+}
