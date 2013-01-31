@@ -14,7 +14,8 @@
         <transformation query="" writer="xsl" source="templates/enrise-api/sidebar.xsl" artifact="nav.html">
             <parameters>
                 <variables>
-                    <section.api.show>true</section.api.show>
+                    <section.dashboard.show>false</section.dashboard.show>
+                    <section.api.show/>
                 </variables>
             </parameters>
         </transformation>
