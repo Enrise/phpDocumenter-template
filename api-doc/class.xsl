@@ -124,7 +124,7 @@
                 <h3>Api Urls</h3>
                 <div>
                     <xsl:apply-templates select="method">
-                        <xsl:sort select="name"/>
+                        <xsl:sort select="/docblock/tag[@name='api']"/>
                     </xsl:apply-templates>
                 </div>
             </xsl:if>
