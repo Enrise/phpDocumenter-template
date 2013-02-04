@@ -63,7 +63,7 @@
             <xsl:if test="docblock/description|docblock/long-description">
                 <xsl:apply-templates select="docblock/description"/>
                 <xsl:apply-templates select="docblock/long-description"/>
-            </xsl:if>-->
+            </xsl:if>
 
             <dl class="class-info">
 
@@ -118,7 +118,7 @@
                         <xsl:sort select="name"/>
                     </xsl:apply-templates>
                 </div>
-            </xsl:if>
+            </xsl:if>-->
 
             <xsl:if test="count(method) > 0">
                 <h3>Api Urls</h3>
